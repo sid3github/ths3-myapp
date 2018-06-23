@@ -1,0 +1,11 @@
+<link rel="stylesheet" href="register.ejs.css">
+<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+<ul>
+  <%  for(var i=0;i <data.length; i++) { %>
+
+    <li>Hello, <%=data[i].username%>! <i class="em em-flag-in"></i></li>
+<%} %>
+</ul>
+
+<a class="log" href="/logout">Logout</a>
